@@ -4,25 +4,214 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>이사 견적 참고 페이지</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="">
+
+	<style>
+		body {
+			margin: auto;
+			max-width: 500px;
+		}
+
+		.obj_wrapper {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr 50px;
+			margin: 10px;
+		}
+
+		.obj_title {
+			grid-column: 1/3;
+			grid-row: 1/2;
+			font-size: 1.1em;
+			margin: 5px;
+			font-weight: bold;
+		}
+
+		.obj_comment {
+			grid-column: 1/3;
+			grid-row: 3/4;
+			margin: 10px;
+		}
+
+		.obj_comment div {
+			text-decoration: dashed;
+		}
+
+		.obj_size {
+			grid-column: 1/2;
+			grid-row: 2/3;
+			margin-left: 10px;
+		}
+
+		.obj_count {
+			font-style: italic;
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+
+		.basic_info {
+			display: grid;
+			grid-template-columns: 100px 1fr;
+		}
+
+		.basic_info div {
+			margin: 5px;
+		}
+	</style>
 </head>
 
 <body>
-	<!--[if lt IE 7]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+	<h1>이사 견적 참고</h1>
 
-	<h1>hello</h1>
-
-	<div>
-		aaa.html
+	<div class="basic_info">
+		<div>날짜</div>
+		<strong>25.05.16 (토) 오전 (협의)</strong>
+		<div>출발지</div>
+		<div>
+			<strong>
+				서울 마포구 서교동 빌라
+			</strong>
+			<br />
+			- 1.5층 (아래층 반지하). 엘베 X
+			<br />
+			- 사다리차 가능
+			<br />
+			- 주차 가능
+		</div>
+		<div>도착지</div>
+		<div>
+			<strong>
+				영등포구 영등포동8가
+			</strong>
+			<br />
+			- 사다리차 가능
+			<br />
+			- 주차 가능
+		</div>
 	</div>
 
+
+	<h3>가구 목록</h3>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">1. 컴퓨터 책상(두닷 콰트로) </div>
+		<div class="obj_size">140 x 80 x 75 (cm)</div>
+		<div class="obj_count">2개</div>
+		<div class="obj_comment">
+			<div>분리가능(분리/조립 필요)</div>
+			<div>서랍장 포함</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">2. 스탠드 타공판 </div>
+		<div class="obj_size">220 x 80 (cm)</div>
+		<div class="obj_count">2개</div>
+		<div class="obj_comment">
+			<div>분리가능 (110cm * 2)</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">3. 책장 </div>
+		<div class="obj_size">80 x 28 x 202 (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div>책 포함</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">4. 컴퓨터의자 </div>
+		<div class="obj_size"></div>
+		<div class="obj_count">2개</div>
+		<div class="obj_comment">
+			<div></div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">5. 식탁 </div>
+		<div class="obj_size">37 x 75 x 100 (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div>접이식 (접었을때 사이즈)</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">6. 식탁의자 </div>
+		<div class="obj_size">46 x 54 x 80 (cm)</div>
+		<div class="obj_count">4개</div>
+		<div class="obj_comment">
+			<div>겹치기 가능</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">7. 화장대 </div>
+		<div class="obj_size">43 x 106 x 82 (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div>거울 달려있음 (분리가능. 드릴 필요)</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">8. 화장대의자 (스툴)</div>
+		<div class="obj_size"></div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div></div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">9. 침대(퀸사이즈,판상형,헤드있음)</div>
+		<div class="obj_size">222 x 160 x 27/120 (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div>상부(헤드포함) / 하부(다리쪽) 분리형</div>
+			<div>매트리스 포함</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">10. 서랍장 (이케아 말름)</div>
+		<div class="obj_size"> 80 x 123 x 48 (cm)</div>
+		<div class="obj_count">2개</div>
+		<div class="obj_comment">
+			<div>내부 짐 포함</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">11. 화장품선반</div>
+		<div class="obj_size">42 x 39 x 147 (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div>내부 짐 포함(뽁뽁이 채워서 통채로 운반)</div>
+		</div>
+	</div>
+
+	<div class="obj_wrapper">
+		<div class="obj_title">12. </div>
+		<div class="obj_size"> (cm)</div>
+		<div class="obj_count">1개</div>
+		<div class="obj_comment">
+			<div></div>
+		</div>
+	</div>
+
+	<pre>
+		미포함 : 
+		cd장, 수건서랍장, 철제서랍장, 공구함, 스피드랙
+	</pre>
+
 	<script src="" async defer>
-		alert("hello")
 	</script>
 </body>
 

@@ -1,0 +1,40 @@
+.obj_wrapper {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+.obj_title {
+	grid-column: 1/3;
+	grid-row: 1/2;
+	margin-top: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.obj_comment {
+	grid-column: 1/3;
+	grid-row: 3/4;
+	margin: 10px;
+}
+
+.obj_comment div {
+	text-decoration: dashed;
+}
+
+.obj_size {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	margin-left: 10px;
+}
+
+.obj_count {
+	font-style: italic;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
